@@ -1,22 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="shortcut icon" href="https://placekitten.com/96/139" type="image/x-icon">
+    <title>my site</title>
+    <link rel="shortcut icon" href="img/burgericon.svg" type="image/x-icon">
 </head>
+
 <body>
-    <header>
-        <h1>Hello world from Julia</h1>
-        </header>
+    <header class="header">
+        <div class="header__contacts">
+            <p class="header__adress">
+                Los Angeles Gournadi, 1230 </p>
+            <a class="header__email" href="freddy.burgers@email.com">freddy.burgers@email.com </a>
+            <p class="header__hours">Hours: 9:00 AM - 5:00 PM</p>
+        </div>
+        <nav class="header__nav" style="background-color: rgb(247, 36, 36);">
+            <a href="#" class="header__logo-container">
+                <img class="header__logo" width="252" src="img/burger-logo.svg" alt="Burger logo">
+            </a>
+        </nav>
+        <div class="header__menu">
+            <a href="about" class="header__menu-item">About us</a>
+            <a href="menu" class="header__menu-item">Menu</a>
+            <a href="catering" class="header__menu-item">Catering</a>
+            <a href="contacts" class="header__menu-item">Contacts</a>
+        </div>
+        <div class="header__banner">
+            <h1 class="">FREDDY BURGERS</h1>
+            <p class="">YOU HAVE A PARTY — WE HAVE TASTY BURGERS!</p>
+            <p class="">Look out for our food truck on the streets of Los Angeles, order delivery or catering, and enjoy
+                the taste of juicy burgers!</p>
+            <a class=""> </a>
+        </div>
+        <div class="header__order">
+            <a href="contscts#order" class="header__order-button">Order now</a>
+            <div class="header__call-now">
+                <img src="img/phone (1) 1.svg" width="60" alt="Phone-icon">
+                <div class="header__phone">
+                    <h4>Call us!</h4>
+                </div>
+            </div>
+        </div>
+    </header>
     <main>
-        <img src="img/relaxing-cat.jpg" alt="image">
+        <section class="cources">
+            <h2 class="cources__title">Cources</h2>
+            <div class="divider"></div>
+            <p class="cources__subtitle">">Sign up for one of our professional courses.
+            </p>
+            <div class="cources__carousel carousel">
+                <article class="carousel__slide">
+                    <img src="img/coffee.png" width="300" alt="Latte">
+                    <h3>Latte art course</h3>
+                    <div class="">
+                        <div></div>
+                        <div></div>
+                        <div>
+                            <p></p>
+                        </div>
+
+
+                    </div>
+                </article>
+            </div>
+            </div>
+        </section>
+        <section class="contacts">
+            <div class="contacts__details">
+
+            </div>
+            <form action="" method="" class="">
+                <input type="text" name="full-name" placeholder="Enter your full name" required>
+                <input type="tel" name="phone" placeholder="Enter your phone number" required>
+                <input type="email" name="email" placeholder="Enter your email" required>
+                <textarea name="message" cols="30" rows="10" placeholder="Enter your message" required></textarea>
+                <input type="submit" value="Request a quote">
+
+            </form>
+        </section>
     </main>
     <footer>
-        
+
 
     </footer>
 </body>
+
 </html>
