@@ -1,0 +1,53 @@
+.plansandpricing {
+    padding-bottom: 90px;
+    padding-top: 85px;
+    max-width: 1200px;
+    margin: auto;
+}
+.plansandpricing__title {
+    text-align: center;
+}
+
+.plansandpricing__title-text {
+    padding-bottom: 15px;
+    color: rgb(28, 31, 41);
+    font-size: 34px;
+}
+.plansandpricing__wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.plansandpricing__wrapper-item {
+    margin-top: 15px;
+    margin: 15px;
+    padding: 20px 20px;
+    text-align: center;
+    background: var(--secondary-color);
+    border-radius: 6px;
+    min-width: 272px;
+    width: 272px;
+    min-height:auto;
+    box-shadow: var(--box-shadow-color);
+   height: 486.825px;
+}
+.desk__title{
+font-size: 24px;
+color: rgb(41, 45, 48);
+font-weight: 600;
+font-family:var(--font-title);
+}
+.desk__price{
+    color: rgb(245,93,74);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 32.04px;
+}
+.desk__text{
+    font-size: 16px;
+    font-weight: 400;
+    display:inline;
+    line-height: 28.8px;
+    text-align: center;
+}
