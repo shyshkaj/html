@@ -29,7 +29,7 @@
     min-width: 272px;
     width: 272px;
     min-height:auto;
-    box-shadow: rgb(243, 248, 255);
+    box-shadow: 10px 5px 5px rgb(150, 145, 145);;
    height: 486.825px;
 }
 .desk__title{
