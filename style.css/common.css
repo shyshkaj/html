@@ -36,7 +36,7 @@
 font-size: 24px;
 color: rgb(41, 45, 48);
 font-weight: 600;
-font-family: rgb(0, 0, 0);
+ /*font-family: */ 
 }
 .desk__price{
     color: rgb(245,93,74);
