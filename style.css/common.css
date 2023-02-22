@@ -24,12 +24,12 @@
     margin: 15px;
     padding: 20px 20px;
     text-align: center;
-    background: var(--secondary-color);
+    background: rgb(196, 217, 254);
     border-radius: 6px;
     min-width: 272px;
     width: 272px;
     min-height:auto;
-    box-shadow: var(--box-shadow-color);
+    box-shadow: rgb(243, 248, 255);
    height: 486.825px;
 }
 .desk__title{
