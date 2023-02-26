@@ -7,18 +7,37 @@
     <title>Document</title>
     <link rel="shortcut icon" href="https://placekitten.com/96/139" type="image/x-icon">
     <link rel ="stylesheet" href="./style.css/common.css">
+    <link  rel="stylesheet" href="style.css/carousel.css">
 </head>
 <body>
     <main>
         <section class="ourspaces" id="ourspaces">
-            <div class="ourspaces__examples">
-                <h2> Our spaces</h2>
-                <img class="blackoffice" src="img/blackoffice.png" width="200" alt="black office">
-                <img class="brownoffice" src="img/brownoffice.png" width="200" alt="brown office">
-                <img class="greenoffice" src="img/greenoffice.png" width="200" alt="green office">
-                <img class="singleoffice" src="img/singleoffice.png" width="200" alt="single office">
-                <img class="officechairs" src="img/officechairs.png" width="200" alt="office chairs">
-                <img class="whiteoffice" src="img/whiteoffice.png" width="200" alt="white office">
+            <h2> Our spaces</h2>
+            <div class="carousel">
+            <button class="carousel__button carousel__button--left">
+                <img src="img/icons8-left-arrow-32.png" alt="left arrow">
+            </button>
+            <div class="carousel__track-container">
+                <ul class="carousel__track">  
+                    <li class="carousel__slide">
+                        <img class="carousel__image" src="img/blackoffice.png" alt="blackoffice">
+                    </li>
+                    <li class="carousel__slide">
+                        <img class="carousel__image" src="img/brownoffice.png" alt="brownoffice">
+                    </li>
+                    <li class="carousel__slide">
+                        <img class="carousel__image" src="img/greenoffice.png" alt="greenoffice">
+                    </li>
+                </ul>
+            </div>
+            <button class="carousel__button carousel__button--right">
+                <img src="img/icons8-right-arrow-32.png" alt="right arrow">
+            </button>
+            <div class="carousel__nav">
+                <button class="carousel__indicator"></button>
+                <button class="carousel__indicator"></button>
+                <button class="carousel__indicator"></button>
+            </div>
             </div>
         </section>
         <section class="plansandpricing" id="Plans&Pricing">
