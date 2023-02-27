@@ -32,6 +32,17 @@
     box-shadow: 10px 5px 5px rgb(150, 145, 145);;
    height: 486.825px;
 }
+@media (min-width: 768px) {
+    .plansandpricing__wrapper-item {
+        max-width: 70%;
+    }
+}
+
+@media (min-width: 992px) {
+    .plansandpricing__wrapper-item {
+        width: 320px;
+    }
+}
 .desk__title{
 font-size: 24px;
 color: rgb(41, 45, 48);
@@ -51,3 +62,4 @@ font-weight: 600;
     line-height: 28.8px;
     text-align: center;
 }
+
