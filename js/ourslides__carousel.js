@@ -2,8 +2,8 @@
     const slides = [
         '<div><img class="spaces__slider" src="img/blackoffice.png" alt="spaces workers"></div>', 
         '<div><img class="spaces__slider" src="img/brownoffice.png" alt="spaces barrels"></div>',    
-        '<div><img class="spaces__slider" src="img/dedicateddesk.png" alt="spaces plant"></div>',    
-        '<div><img class="spaces__slider" src="img/shareddesk.png" alt="spaces product"></div>',    
+        '<div><img class="spaces__slider" src="img/officechairs.png" alt="spaces plant"></div>',    
+        '<div><img class="spaces__slider" src="img/greenoffice.png" alt="spaces product"></div>',    
         '<div><img class="spaces__slider" src="img/whiteoffice.png" alt="spaces work"></div>',    
         '<div><img class="spaces__slider" src="img/singleoffice.png" alt="spaces bottels"></div>'
     ];
@@ -76,8 +76,8 @@
       const slidesModal = [
         '<div><img class="spaces__slider" src="img/blackoffice.png" alt="spaces workers"></div>', 
         '<div><img class="spaces__slider" src="img/brownoffice.png" alt="spaces barrels"></div>',    
-        '<div><img class="spaces__slider" src="img/dedicateddesk.png" alt="spaces plant"></div>',    
-        '<div><img class="spaces__slider" src="img/shareddesk.png" alt="spaces product"></div>',    
+        '<div><img class="spaces__slider" src="img/officechairs.png" alt="spaces plant"></div>',    
+        '<div><img class="spaces__slider" src="img/greenoffice.png" alt="spaces product"></div>',    
         '<div><img class="spaces__slider" src="img/whiteoffice.png" alt="spaces work"></div>',    
         '<div><img class="spaces__slider" src="img/singleoffice.png" alt="spaces bottels"></div>'
       ];
