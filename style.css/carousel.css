@@ -94,9 +94,9 @@
   background: url('../images/end_of_block.svg') 50% 50% / cover no-repeat, rgb(244, 238, 225);
 }
 
-@media (min-width: 320px ) {
-  .spaces__slider {
-      height: 140.8px;
+@media  (max-width: 720px ) {
+  .spaces__slider  {
+    height: 140.8px;
       width: 320px;
   }
 
@@ -128,8 +128,8 @@
   }
 
   .spaces__slider {
-      width: 947px;
-      height: 582px;
+      width: 1170px;
+      height: 503px;
   }
 }
 .spaces__slider_modal {
