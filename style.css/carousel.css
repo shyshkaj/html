@@ -46,6 +46,7 @@
   background: transparent;
   border: none;
   font-size: large;
+  cursor: pointer;
 }
 
 .spaces__slider_btn_prev {
@@ -68,6 +69,7 @@
   padding: 0;
   width: 100%;
   margin-bottom: 20px;
+  cursor: pointer;
 }
 
 .spaces__nav_item {
