@@ -8,8 +8,8 @@
       '<div><img class="spaces__slider" src="img/singleoffice.png" alt="single office"></div>'
   ];
 
-  const prevButton = document.querySelector('.spaces__slider_btn_prev');
-  const nextButton = document.querySelector('.spaces__slider_btn_next');
+  const prevButton = document.querySelector('.spaces__slider_btn_left');
+  const nextButton = document.querySelector('.spaces__slider_btn_right');
   const navItems = document.querySelectorAll('.spaces__nav_item');
 
   let currentSlide = 0;
@@ -66,6 +66,7 @@
       modal.style.display = 'none';
     });
 
+
     function openModal() {
       modal.style.display = 'block';
       modalImg.src = this.src;
@@ -101,10 +102,10 @@
 
     renderSlidesModal(slidesModal);
 
-    const nextBtnModal = document.querySelector('.spaces__btn_next');
+    const nextBtnModal = document.querySelector('.spaces__btn_right');
     nextBtnModal.addEventListener('click', nextSlideModal);
 
-    const prevBtnModal = document.querySelector('.spaces__btn_prev');
+    const prevBtnModal = document.querySelector('.spaces__btn_left');
     prevBtnModal.addEventListener('click', prevSlideModal);
 
     window.addEventListener('resize', () => {
